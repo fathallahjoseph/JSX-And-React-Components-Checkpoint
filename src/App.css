@@ -1,0 +1,31 @@
+/* css my PhotoProfile */
+#jo{
+    width: 400px;
+    margin-left: 300px;
+    transition: transform .1s;
+    overflow: hidden;
+}
+/* div App.js css */
+.div{
+    padding: 200px;
+    background-color: rgb(0, 0, 0);
+    
+}
+/* css my FullName */
+.FullName{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    background-color: rgb(255, 0, 0);
+}
+/* css my Adresse */
+.MyAdress{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    background-color: rgb(255, 0, 0);
+}/* css hover to my PhotoProfile */
+#jo:hover{
+    -ms-transform: scale(1) translate(20px); /* IE 9 */
+-webkit-transform: scale() translate(20px); /* Safari 3-8 */
+transform: scale(1) translate(20px);
+border-radius: 400px;
+}
